@@ -6,16 +6,16 @@ Automated interactive script for deploying KVM virtual machines.
 
 ##### 1. Download the script:
 ```
-sudo https://github.com/Matkach/
+wget https://github.com/Matkach/kvm_guest_installer/blob/master/kvm_guest_installer.sh
 ```
 
 #### 2. Make the script executable
 ```
-sudo chmod +x kvm_guest_installer.sh
+chmod +x kvm_guest_installer.sh
 ```
 ##### 3. Execute the script:
 ```
-sudo ./kvm_guest_installer.sh
+./kvm_guest_installer.sh
 ```
 <b>Please note:</b> The script is only tested on a clean server and is still in a development mode. 
 
